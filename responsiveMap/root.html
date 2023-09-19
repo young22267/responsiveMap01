@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>root</title>
+    <style>
+        /* root: root.html
+        css를 변수로 잡는 방법 
+        css의 속성을 :root 로 잡는 이유 
+        재사용성, 유지보수성, 테마관리, 
+        코드의 가독성 향상 */
+        :root{
+            --text-color:skyblue;
+
+        }
+        body{color:var(--text-color)}
+        a{color:var(--text-color)} 
+    </style>
+</head>
+<body>
+    jihey
+    <a href="#">jihey</a>
+</body>
+</html>
